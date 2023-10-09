@@ -77,14 +77,34 @@ nav > a:hover{
     padding: 5px 5px 25px 5px;
 }
 
-.box-section1 > button {
-    padding: 10px 15px;
+.box-section1 > a {
+    margin: 5px 15px;
+    display: inline-block;
+    padding: 15px 25px;
     border-radius: 25px;
     font-size: 1em;
     font-weight: 400;
 }
 
+.buttonStart {
+    background-color: #0b0909 ;
+    border: 2px solid #0b0909;
+}
+
+.buttonStart:active{
+    background-color: rgba(0, 0, 0, 0);
+    outline: 2px solid #0b0909;
+}
+
+.buttonPlans {
+    border: 2px solid #fff;
+}
+
+.buttonPlans:hover{
+    transform: scale(1.05);
+}
+
 .box-section1 > p {
-    padding: 35px 5px 25px 5px;
+    padding: 25px 5px 25px 5px;
     font-size: 1em;
 }
