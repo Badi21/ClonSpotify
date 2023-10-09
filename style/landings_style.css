@@ -13,7 +13,7 @@ body{
 .contenedor {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .25fr 1fr 3fr 3fr 2fr;
+    grid-template-rows: .25fr 1fr 1fr 2fr 1fr;
 }
 
 header {
@@ -107,4 +107,46 @@ nav > a:hover{
 .box-section1 > p {
     padding: 25px 5px 25px 5px;
     font-size: 1em;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-2 > h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.box-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.card {
+    /* background-color: #879000; */
+    /* margin: 10px ; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 270px;
+    text-align: center;
+}
+
+.card > img {
+    width: 188px;
+    margin-bottom: 50px;
+}
+
+.card > h3 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 35px;
 }
